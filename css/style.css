@@ -1,8 +1,11 @@
 html,
 body {
-  background: #fff;
   font-family: 'Montserrat', sans-serif;
   padding: 10px 0;
+}
+
+body {
+  background: url("../image/body-bg1.jpg") no-repeat 50% 50%/cover;
 }
 
 h1,
@@ -77,7 +80,7 @@ input::-webkit-inner-spin-button {
   width: 1200px;
   margin: 0 auto;
   background: linear-gradient(135deg, #82ca97 0%, #7fdf9b 32%, #65ee8d 100%);
-  border-radius: 7px;
+  border-radius: 17px;
   padding-bottom: 20px;
 }
 
