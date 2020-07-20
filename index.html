@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Калькулятор (ипотека)</title>
+    <link rel="shortcut icon" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+</header>
+
+<div class="flex-wrapper">
+    <div class="calculator-content">
+        <div class="calculator-content-title">
+            <h1>Рассчитайте редит на товар</h1>
+        </div>
+        <div class="calculator-content-body">
+            <div class="calculator-content-body-left">
+                <div class="calculator-content-body-left-inputs">
+                    <div class="input-wrapper">
+                        <div class="title">Стоимость товара</div>
+                        <div class="input">
+                            <input type="number" id="total-cost" value="0" class="input-up">
+                        </div>
+                        <div class="input">
+                            <input type="range" min="0" max="200000" id="total-cost-range" value="0"
+                                class="input-range">
+                        </div>
+                    </div>
+                    <div class="input-wrapper">
+                        <div class="title">Первоначальный взнос</div>
+                        <div class="input">
+                            <input type="number" id="an-initial-fee" value="0" class="input-up">
+                        </div>
+                        <div class="input">
+                            <input type="range" min=0" max="200000" id="an-initial-fee-range" value="0"
+                                class="input-range">
+                        </div>
+                    </div>
+                    <div class="input-wrapper">
+                        <div class="title">Срок кредита</div>
+                        <div class="input">
+                            <input type="number" id="credit-term" value="0" class="input-up">
+                        </div>
+                        <div class="input">
+                            <input type="range" min="1" max="15" id="credit-term-range" value="0" class="input-range">
+                        </div>
+                    </div>
+                </div>
+                <div class="calculator-content-title">
+                    <h2>Выбрать банк</h2>
+                </div>
+                <div class="calculator-content-body-left-btns">
+                    <button data-name="privatbank" class="bank active">
+                        <div class="text">Приватбанк</div>
+                        <div class="value">4,9%</div>
+                    </button>
+                    <button data-name="alfabank" class="bank">
+                        <div class="text">Альфа-банк</div>
+                        <div class="value">4,6%</div>
+                    </button>
+                    <button data-name="oshadbank" class="bank">
+                        <div class="text">Ощадбанк</div>
+                        <div class="value">5,3%</div>
+                    </button>
+                    <button data-name="ukrsibbank" class="bank">
+                        <div class="text">Укрсиббанк</div>
+                        <div class="value">6,1%</div>
+                    </button>
+                </div>
+            </div>
+            <div class="calculator-content-body-right">
+                <div class="final-results-wrapper">
+                    <div class="final-result-item">
+                        <div class="title">Сумма кредита</div>
+                        <div class="value" id="amount-of-credit">0<span>₴</span></div>
+                    </div>
+                    <div class="final-result-item">
+                        <div class="title">Ежемесячный платеж</div>
+                        <div class="value" id="monthly-payment">0<span>₴</span></div>
+                    </div>
+                    <div class="final-result-item">
+                        <div class="title">Рекомендуемый доход</div>
+                        <div class="value" id="recommended-income">0<span>₴</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+</footer>
+<script src="../js/all.js"></script>
+</body>
+</html>
