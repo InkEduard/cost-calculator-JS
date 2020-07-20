@@ -107,5 +107,3 @@ const calculation = (totalCost = 0, anInitialFee = 0, creditTerm = 1) => {
         totalRecommendedIncome.innerHTML = `${monthlyPaymentArouded + ((monthlyPaymentArouded / 100) * 35)} ₴`;
     }
 }
-
-// мой код
