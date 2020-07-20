@@ -80,7 +80,7 @@ input::-webkit-inner-spin-button {
   width: 1200px;
   margin: 0 auto;
   background: linear-gradient(135deg, #82ca97 0%, #7fdf9b 32%, #65ee8d 100%);
-  border-radius: 17px;
+  border-radius: 12px;
   padding-bottom: 20px;
 }
 
